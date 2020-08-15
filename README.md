@@ -1,2 +1,2 @@
 # desk-hue
-A Philliips Hue interface for Windows computers.
+A cross-platform Philliips Hue interface for desktop computers.

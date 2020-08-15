@@ -15,7 +15,7 @@ class main_window:
         self.master = master
         master.title("DeskHue")
         master.geometry('545x220')
-        master.iconbitmap('icon.ico')
+        # master.iconbitmap('icon.xbm')
         master.resizable(False, False)
 
         self.hue_label = tk.Label(text="Hue")
@@ -75,7 +75,7 @@ class configuration_window:
         master.grab_set()
         master.title("Configuration")
         master.geometry('535x190')
-        master.iconbitmap('icon.ico')
+        # master.iconbitmap('icon.ico')
         master.resizable(False, False)
         
         self.ip_button = tk.Button(master, text="Search network for bridge", command=self.find_ip)
